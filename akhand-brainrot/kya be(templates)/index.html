@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Predictor AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_maar_raha.css') }}">
+</head>
+<body>
+  <div class="card">
+    <span class="badge-top">⚠️MINORS STAY AWAY</span>
+    <div class="title">Day Predictor AI</div>
+    <div class="subtitle">Powered by 47 AI models & NASA satellites</div>
+
+    <div class="question">Tomorrow is which day?</div>
+
+    <div class="days-grid">
+      <button class="day-btn" onclick="selectDay(this, 'Monday')">Monday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Tuesday')">Tuesday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Wednesday')">Wednesday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Thursday')">Thursday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Friday')">Friday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Saturday')">Saturday</button>
+      <button class="day-btn" onclick="selectDay(this, 'Sunday')">Sunday</button>
+    </div>
+
+    <button class="predict-btn" id="predictBtn" onclick="predict()">PREDICT</button>
+
+    <div class="loader-area" id="loaderArea">
+      <div class="spinner"></div>
+      <div class="loading-text" id="loadingText">Initializing AI...</div>
+    </div>
+
+    <div class="result-area" id="resultArea">
+      <div class="result-emoji" id="resultEmoji"></div>
+      <div class="result-headline" id="resultHeadline"></div>
+      <div class="result-iq" id="resultIQ"></div>
+      <div class="result-stats" id="resultStats"></div>
+      <button class="reset-btn" onclick="reset()">Try again (result may vary — jk it won't)</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/mamta-benerjee.js') }}"></script>
+</body>
+</html>
