@@ -6,7 +6,7 @@
 
 ## what is this!!??
 
-bro we built a "Day Predictor AI" for our final year project.
+bro we built a "Day Predictor AI" for our zero year project.
 it asks you what day tomorrow is.
 then spends 15 seconds hacking NASA, contacting Einstein and talking to Elon Musk.
 then tells you the answer any 5 year old already knows.
