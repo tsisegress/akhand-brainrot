@@ -55,13 +55,12 @@ then open `http://127.0.0.1:5000` and question your life choices.
 
 ## features 
 
-- ✅ 15 seconds of pure dramatic loading
-- ✅ hacks NASA for you (free of charge)
-- ✅ calls Einstein's ghost
-- ✅ missed call from Jaadu
-- ✅ 100% accurate predictions (it literally just checks the date)
-- ✅ win = confetti explosion + infinite aura
-- ✅ lose = dark mode + generational trauma
+- hacks NASA for you (free of charge)
+- calls Einstein's ghost
+- 99 missed call from Jaadu
+- 100% accurate predictions (it literally just checks the date)
+- win = confetti explosion + infinite aura
+- lose = dark mode + generational trauma
 
 ---
 
@@ -91,4 +90,5 @@ A: eh.
 ---
 
 > *"The future belongs to those who can predict what day tomorrow is."*
+
 > — Sun Tzu (probably)
